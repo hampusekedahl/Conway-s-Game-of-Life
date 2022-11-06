@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "EOr9IsPJah0225ziLIrcA3+1Pxe9uaKxhCSXAER+4KTuB9zjD0w5SMo0Mbl0MhxEd+Khpg4a8Z9VHBJARvxDUg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hampu\\Desktop\\Conways_Game_Of_Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hampu\\.nuget\\packages\\fsharp.control.asyncseq\\2.0.21\\fsharp.control.asyncseq.2.0.21.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\fsharpx.async\\1.14.1\\fsharpx.async.1.14.1.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\fsharpx.collections\\2.1.2\\fsharpx.collections.2.1.2.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\fsharpx.extras\\3.1.0\\fsharpx.extras.3.1.0.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\system.reflection.emit.lightweight\\4.7.0\\system.reflection.emit.lightweight.4.7.0.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\system.security.accesscontrol\\6.0.2-mauipre.1.22054.8\\system.security.accesscontrol.6.0.2-mauipre.1.22054.8.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\system.security.permissions\\6.0.2-mauipre.1.22054.8\\system.security.permissions.6.0.2-mauipre.1.22054.8.nupkg.sha512",
+    "C:\\Users\\hampu\\.nuget\\packages\\system.windows.extensions\\6.0.2-mauipre.1.22054.8\\system.windows.extensions.6.0.2-mauipre.1.22054.8.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: System.Drawing.Common from 6.0.2-mauipre.1.22054.8 to 6.0.0. Reference the package directly from the project to select a different version. \r\n Conways_Game_Of_Life -> System.Security.Permissions 6.0.2-mauipre.1.22054.8 -> System.Windows.Extensions 6.0.2-mauipre.1.22054.8 -> System.Drawing.Common (>= 6.0.2-mauipre.1.22054.8) \r\n Conways_Game_Of_Life -> System.Drawing.Common (>= 6.0.0)",
+      "libraryId": "System.Drawing.Common",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}
