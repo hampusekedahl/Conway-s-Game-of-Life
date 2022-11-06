@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hampu\\Desktop\\Conways_Game_Of_Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj": {}
+    "C:\\Users\\hampu\\Pictures\\Saved Pictures\\Conway-s-Game-of-Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\hampu\\Desktop\\Conways_Game_Of_Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj": {
+    "C:\\Users\\hampu\\Pictures\\Saved Pictures\\Conway-s-Game-of-Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hampu\\Desktop\\Conways_Game_Of_Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj",
+        "projectUniqueName": "C:\\Users\\hampu\\Pictures\\Saved Pictures\\Conway-s-Game-of-Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj",
         "projectName": "Conways_Game_Of_Life",
-        "projectPath": "C:\\Users\\hampu\\Desktop\\Conways_Game_Of_Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj",
+        "projectPath": "C:\\Users\\hampu\\Pictures\\Saved Pictures\\Conway-s-Game-of-Life\\Conways_Game_Of_Life\\Conways_Game_Of_Life.fsproj",
         "packagesPath": "C:\\Users\\hampu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hampu\\Desktop\\Conways_Game_Of_Life\\Conways_Game_Of_Life\\obj\\",
+        "outputPath": "C:\\Users\\hampu\\Pictures\\Saved Pictures\\Conway-s-Game-of-Life\\Conways_Game_Of_Life\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\hampu\\AppData\\Roaming\\NuGet\\NuGet.Config",
