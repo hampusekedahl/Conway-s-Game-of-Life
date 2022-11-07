@@ -6,10 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="Game\Gui.fs" />
     <Compile Include="Game\GameTypes.fs" />
     <Compile Include="Game\Renderer.fs" />
     <Compile Include="Game\Game.fs" />
-    <Compile Include="Gui.fs" />
     <Compile Include="Main.fs" />
   </ItemGroup>
 
