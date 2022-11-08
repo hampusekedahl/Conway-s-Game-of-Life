@@ -7,17 +7,38 @@ open Renderer
 open GameTypes
 open Game
 
-//Render Form
+type UserAction = | Start | Stop
 
-let rec main gameContext = async {
+let buttons = [startBtn;pauseBtn]
+
+let userAction = [Start;Stop]
+
+let rec mergeobservables (xs:Windows.Forms.Button list) ys =
+            match xs, ys with
+            | head::[], head1::[] -> (Observable.map (fun _-> head1) head.Click)
+            | head::tail, head1::tail2 ->  (Observable.merge
+                             <| (Observable.map (fun _-> head1) head.Click)
+                             <| mergeobservables tail tail2)
+            | _ -> failwith("List are not same length!")
+
+
+let observables = mergeobservables buttons userAction
+
+let rec main gameContext observable = async {
     renderMap(gameContext.Map.Grid)
    
     do! Async.Sleep(200)
 
+
+    match observable with 
+        | Start -> return! main gameContext observable
+        | Stop -> return! main gameContext observable
+        | _ -> return! main gameContext observable
+
     if gameContext.Pause then 
-        return! main gameContext
+        return! main gameContext observable
     else
-        return! main ({gameContext with Map = Cycle(gameContext.Map)})
+        return! main {gameContext with Map = Cycle(gameContext.Map)} observable
     }
     
     //render Map
@@ -44,7 +65,7 @@ let rec main gameContext = async {
 
 
 
-Async.StartImmediate(main Game.createGameContext)
+Async.StartImmediate(main Game.createGameContext observables) 
 
 System.Windows.Forms.Application.Run(windowForm)
 
